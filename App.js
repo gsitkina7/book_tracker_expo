@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons'; 
 import { GlobalStyles } from './constants/styles';
+import React from 'react';
 
 import Read from './screens/Read';
 import ToRead from './screens/ToRead';
